@@ -46,9 +46,10 @@ exports.signup = catchAsync(async (req, res, next) => {
 
   const url = `${req.protocol}://${req.get('host')}/me`;
   //console.log(url);
-  await new Email(newUser, url).sendWelcome();
+  //await new Email(newUser, url).sendWelcome();
 
   createSendToken(newUser, 201, res);
+  console.log("done signup",newUser.email)
 });
 
 exports.login = catchAsync(async (req, res, next) => {
@@ -67,6 +68,7 @@ exports.login = catchAsync(async (req, res, next) => {
 
   // 3) If everything ok, send token to client
   createSendToken(user, 200, res);
+  console.log("log in success")
 });
 
 exports.logout = (req, res) => {

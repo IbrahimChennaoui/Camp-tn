@@ -1,10 +1,10 @@
 [
   {
     "startLocation": {
-      "description": "Miami, USA",
+      "description": "Hawaria, Nabel",
       "type": "Point",
       "coordinates": [-80.185942, 25.774772],
-      "address": "301 Biscayne Blvd, Miami, FL 33132, USA"
+      "address": "Hawaria nabel"
     },
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
@@ -15,7 +15,7 @@
       "2021-08-18T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2955",
-    "name": "The Sea Explorer",
+    "name": "Nabel Explorer for the hood",
     "duration": 7,
     "maxGroupSize": 15,
     "difficulty": "medium",
