@@ -31,8 +31,7 @@ body {
   line-height: 1.6;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
-  color: #777;
-  padding: 3rem;
+  color: #150101;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,7 +44,7 @@ body {
 
 .main {
   background-color: #f7f7f7;
-  padding: 8rem 6rem;
+  padding: 5rem 6rem;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -174,8 +173,8 @@ body {
 }
 
 .heading-tertirary {
-  font-size: 2.75rem;
-  text-align: right;
+  font-size: 2.15rem;
+  /*text-align: right;*/
   position: absolute;
   bottom: 1rem;
   right: 2rem;
@@ -301,7 +300,7 @@ body {
 .header {
   background-color: #444;
   padding: 0 5rem;
-  height: 8rem;
+  height: 7rem;
   position: relative;
   z-index: 100;
   display: -webkit-box;
@@ -368,15 +367,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#7dd56f),
-    to(#28b487)
-  );
-  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
-  opacity: 0.85;
 }
 
 .heading-box {
@@ -388,8 +378,8 @@ body {
   transform: translate(-50%, -50%);
 }
 .heading-box__group {
-  color: #f7f7f7;
-  margin-top: 3rem;
+  color: #585656;
+   margin-top: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1109,14 +1099,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#7dd56f),
-    to(#28b487)
-  );
-  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
   opacity: 0.7;
 }
 .card__picture-img {
@@ -1163,9 +1145,8 @@ body {
   fill: #55c57a;
 }
 .card__footer {
-  background-color: #f7f7f7;
+  background-color: #f4f4f3;
   padding: 2.5rem 3rem;
-  border-top: 1px solid #f1f1f1;
   font-size: 1.4rem;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -1177,7 +1158,7 @@ body {
   font-weight: 700;
 }
 .card__footer-text {
-  color: #999;
+  color: rgb(32, 32, 32);
 }
 .card__ratings {
   grid-row: 2 / 3;
